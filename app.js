@@ -20,6 +20,6 @@ function noteCalculation(){
     }else if (ort>=0 && ort<45){
         harfnot = "F"
     }
-    ortalama.value = ort;
+    ortalama.value = Math.round(ort);
     harfNote.value = harfnot
 }
