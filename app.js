@@ -19,6 +19,7 @@ function noteCalculation(){
         harfnot = "D"
     }else if (ort>=0 && ort<45){
         harfnot = "F"
+        alert("kaldiniz)
     }
     ortalama.value = ort;
     harfNote.value = harfnot
